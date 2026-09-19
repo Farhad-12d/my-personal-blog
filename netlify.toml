@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Environment variables (DATABASE_URL, SESSION_SECRET, ADMIN_EMAIL,
+# ADMIN_PASSWORD) are set in the Netlify UI under
+# Site configuration → Environment variables — never committed here.
